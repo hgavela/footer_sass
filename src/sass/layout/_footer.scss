@@ -2,3 +2,39 @@
 /* @FOOTER */
 /* ********* */
 
+// Colores
+.links{
+    background-color: $color_footer_scLinks;
+}
+.logoIdiomas{
+    background-color: $color_footer_scLogo;
+}
+.terminosSocial{
+    background-color: $color_footer_scTerminos;
+}
+
+// Margenes, espacio
+.links{
+
+    &__contenido{
+        padding: 1rem;
+    }
+}
+.logoIdiomas{
+
+    &__contenido{
+        padding: 1rem;
+    }
+}
+.terminosSocial{
+
+    &__contenido{
+        padding: 1rem;
+    }
+}
+
+.centrar{
+    max-width: $anchoMax;
+    margin: 0 auto;
+}
+
