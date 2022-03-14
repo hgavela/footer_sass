@@ -38,3 +38,94 @@
     margin: 0 auto;
 }
 
+.terminosSocial__contenido{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.politicas{
+    column-count: 3;
+    column-rule: 2px solid rgb(174, 168, 224);
+   > *{
+       display: block;
+   }
+
+   a{
+       margin: 0 1rem;
+   }
+}
+
+.rrss{
+    align-items: flex-end;
+
+    a{
+        margin: 0.5rem;
+    }
+
+}
+
+a{
+    text-decoration: none;
+    color: $color_texto_scLinks
+}
+
+
+.links__contenido{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    ul{
+        padding: 0;
+
+        li{
+            line-height: 1.8rem;
+        }
+    }
+
+    .link-bold{
+        font-weight: bold;
+        padding-bottom: 1.5rem;
+        a{
+            color: $color_texto_scLinks_titulo
+        }
+    }
+}
+
+
+.logoIdiomas__contenido{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    h5{
+        color: $color_texto_scLinks;
+    }
+
+    figure{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+        //flex-direction: row;
+
+        figcaption{
+            color: $color_texto_scLinks;
+            font-size: 0.75rem;
+            line-height: 1.4rem;
+        }
+    }
+
+    select{
+        padding: 5px 65px 5px 5px;
+        border-color: $color_footer_scTerminos;
+        border-radius: 5%;
+        -webkit-border-radius: 5%;
+        -moz-border-radius: 5%;
+        -ms-border-radius: 5%;
+        -o-border-radius: 5%;
+}
+
+}
